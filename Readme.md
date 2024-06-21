@@ -56,7 +56,7 @@ This package integrates Authorize.Net payment gateway with Bagisto e-commerce pl
       <v-auhtorizenet-smart-button></v-auhtorizenet-smart-button>
    </template>
    ```
-   You should get something like next
+   You should see something like next
    ```html
      <!-- Included Checkout Summary Blade File -->
      <div class="sticky top-8 h-max w-[442px] max-w-full ltr:pl-8 rtl:pr-8 max-lg:w-auto max-lg:max-w-[442px] max-lg:ltr:pl-0 max-lg:rtl:pr-0">
@@ -96,7 +96,6 @@ This package integrates Authorize.Net payment gateway with Bagisto e-commerce pl
    composer dump-autoload
    composer require authorizenet/authorizenet
    php artisan route:cache
-   php artisan migrate
    php artisan vendor:publish
    ```
    With `php artisan vendor:publish`, select the option to publish all providers and tags.
@@ -112,3 +111,12 @@ This package integrates Authorize.Net payment gateway with Bagisto e-commerce pl
    - Set the keys obtained in authorize.net: *Client Key*, *API Login ID*, *Transaction Key*.
    - Select the *status* to enable the payment method.
    - Enable if is Sandbox mode (development/test/qa) or disable if you are in production.
+
+## Tests
+   _Pending_
+
+## Contributing
+Bug reports and pull requests are welcome on GitHub at [https://github.com/diegosenarruzza/authorizenet-bagisto-package](https://github.com/diegosenarruzza/authorizenet-bagisto-package).
+
+## License
+The package is available as open source under the terms of the [Mit License](https://opensource.org/license/mit/).
