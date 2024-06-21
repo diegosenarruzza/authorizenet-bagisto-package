@@ -2,6 +2,10 @@
 
 This package integrates Authorize.Net payment gateway with Bagisto e-commerce platform, providing seamless payment processing for your store.
 
+##  Requirements
+
+   The package has been development using Bagisto `2.1.2`, but should work with any `2.x.x` version.
+
 ## Features
 
 - Authorize.Net payment integration
